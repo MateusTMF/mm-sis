@@ -1,6 +1,8 @@
-/*import type { Metadata } from 'next';
+import type { Metadata } from 'next';
+
+/* Código antigo comentado
 import { SegmentPage } from '@/components/segment-page';
-import { segments, espacoLazerFAQs } from '@/lib/data';
+// import { segments, espacoLazerFAQs } from '@/lib/data';
 
 export const metadata: Metadata = {
   title: 'MM Espaço & Lazer | Eventos e Confraternizações',
@@ -13,6 +15,11 @@ export const metadata: Metadata = {
 
 export default function EspacoLazerPage() {
   const segment = segments.find((s) => s.id === 'espaco-lazer')!;
-
   return <SegmentPage segment={segment} faqs={espacoLazerFAQs} />;
-}*/
+}
+*/
+
+// Export mínimo para manter a página sem quebrar o build
+export default function EspacoLazerPage() {
+  return null; // ou <></> se preferir
+}

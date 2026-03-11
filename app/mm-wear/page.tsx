@@ -1,6 +1,8 @@
-/*import type { Metadata } from 'next';
+import type { Metadata } from 'next';
+
+/* Código antigo comentado
 import { SegmentPage } from '@/components/segment-page';
-import { segments, mmWearFAQs } from '@/lib/data';
+// import { segments, mmWearFAQs } from '@/lib/data';
 
 export const metadata: Metadata = {
   title: 'MM Wear | Moda com Atitude e Estilo',
@@ -13,6 +15,11 @@ export const metadata: Metadata = {
 
 export default function MMWearPage() {
   const segment = segments.find((s) => s.id === 'mm-wear')!;
-
   return <SegmentPage segment={segment} faqs={mmWearFAQs} />;
-}*/
+}
+*/
+
+// Export mínimo para manter a página sem quebrar o build
+export default function MMWearPage() {
+  return null; // ou <></> se preferir
+}
