@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+/*import type { Metadata } from 'next';
 import { SegmentPage } from '@/components/segment-page';
 import { segments, espacoLazerFAQs } from '@/lib/data';
 
