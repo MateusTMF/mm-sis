@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
-/* Seu código antigo comentado
+/* Código antigo comentado
 import { SegmentPage } from '@/components/segment-page';
-import { segments, armazemFAQs } from '@/lib/data';
+// import { segments, armazemFAQs } from '@/lib/data';
 
 export const metadata: Metadata = {
   title: 'MM Armazém | Armazenamento e Logística',
@@ -12,8 +12,14 @@ export const metadata: Metadata = {
     description: 'Seu estoque seguro, organizado e pronto para crescer...',
   },
 };
+
+export default function ArmazemPage() {
+  const segment = segments.find((s) => s.id === 'armazem')!;
+  return <SegmentPage segment={segment} faqs={armazemFAQs} />;
+}
 */
 
+// Export mínimo para Next.js não quebrar o build
 export default function ArmazemPage() {
   return null; // ou <></>
 }
