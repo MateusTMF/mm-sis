@@ -21,5 +21,5 @@ export default function EspacoLazerPage() {
 
 // Export mínimo obrigatório para Vercel
 export default function EspacoLazerPage() {
-  return null; // ou <></>
+  return <></>; // ou <></>
 }

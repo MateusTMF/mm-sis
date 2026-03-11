@@ -21,5 +21,5 @@ export default function ArmazemPage() {
 
 // Export mínimo obrigatório para Vercel
 export default function ArmazemPage() {
-  return null; // ou <></>
+  return <></>; // ou <></>
 }
