@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { JSX } from 'react';
 
 /* Código antigo comentado
 import { SegmentPage } from '@/components/segment-page';
@@ -18,8 +19,11 @@ export default function ArmazemPage() {
   return <SegmentPage segment={segment} faqs={armazemFAQs} />;
 }
 */
+// Export padrão mínimo que funciona no Vercel
+export const metadata: Metadata = {
+  title: 'MM Armazém | Armazenamento e Logística',
+};
 
-// Export mínimo obrigatório para Vercel
-export default function ArmazemPage() {
-  return <></>; // ou <></>
+export default function ArmazemPage(): JSX.Element {
+  return <div />; // JSX válido
 }

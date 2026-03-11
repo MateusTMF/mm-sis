@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { JSX } from 'react';
 
 /* Código antigo comentado
 import { SegmentPage } from '@/components/segment-page';
@@ -19,7 +20,11 @@ export default function EspacoLazerPage() {
 }
 */
 
-// Export mínimo obrigatório para Vercel
-export default function EspacoLazerPage() {
-  return <></>; // ou <></>
+// Export padrão mínimo para Vercel
+export const metadata: Metadata = {
+  title: 'MM Espaço & Lazer | Eventos e Confraternizações',
+};
+
+export default function EspacoLazerPage(): JSX.Element {
+  return <div />; // JSX válido
 }

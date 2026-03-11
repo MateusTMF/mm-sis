@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { JSX } from 'react';
 
 /* Código antigo comentado
 import { SegmentPage } from '@/components/segment-page';
@@ -19,7 +20,11 @@ export default function MMWearPage() {
 }
 */
 
-// Export mínimo obrigatório para Vercel
-export default function MMWearPage() {
-  return <></>; // ou <></>
+// Export padrão mínimo para Vercel
+export const metadata: Metadata = {
+  title: 'MM Wear | Moda com Atitude e Estilo',
+};
+
+export default function MMWearPage(): JSX.Element {
+  return <div />; // JSX válido
 }
