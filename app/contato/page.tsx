@@ -67,10 +67,10 @@ export default function ContatoPage() {
                         Telefone / WhatsApp
                       </h3>
                       <a
-                        href="tel:+5511999999999"
+                        href="tel:+5517997888159"
                         className="mt-1 block font-sans text-muted-foreground hover:text-gold"
                       >
-                        (11) 99999-9999
+                        (17) 99788-8159
                       </a>
                     </div>
                   </div>
@@ -101,7 +101,7 @@ export default function ContatoPage() {
                         Localização
                       </h3>
                       <p className="mt-1 font-sans text-muted-foreground">
-                        São Paulo, SP - Brasil
+                        Fernandópolis, SP - Brasil
                       </p>
                     </div>
                   </div>
@@ -159,7 +159,7 @@ export default function ContatoPage() {
                       Mapa da localização
                     </p>
                     <p className="font-sans text-sm text-muted-foreground">
-                      São Paulo, SP - Brasil
+                      Fernandópolis, SP - Brasil
                     </p>
                   </div>
                 </div>

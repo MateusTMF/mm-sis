@@ -75,11 +75,11 @@ export function Footer() {
             <h3 className="font-serif text-lg font-semibold text-gold">Contato</h3>
             <div className="mt-4 flex flex-col gap-4">
               <a
-                href="tel:+5511999999999"
+                href="tel:+5517997888159"
                 className="flex items-center gap-3 font-sans text-sm text-muted-foreground transition-colors hover:text-gold"
               >
                 <Phone className="h-4 w-4 text-gold" />
-                (11) 99999-9999
+                (17) 99788-8159
               </a>
               <a
                 href="mailto:contato@mmempreendimentos.com.br"
@@ -90,7 +90,7 @@ export function Footer() {
               </a>
               <div className="flex items-start gap-3 font-sans text-sm text-muted-foreground">
                 <MapPin className="mt-0.5 h-4 w-4 flex-shrink-0 text-gold" />
-                <span>São Paulo, SP - Brasil</span>
+                <span>Fernandópolis, SP - Brasil</span>
               </div>
             </div>
           </div>

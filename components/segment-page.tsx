@@ -37,7 +37,7 @@ export function SegmentPage({ segment, faqs }: SegmentPageProps) {
             </p>
             <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
               <a
-                href="https://wa.me/5511999999999"
+                href="https://wa.me/5517997888159"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center gap-2 rounded-sm bg-gold px-8 py-4 font-sans text-base font-semibold text-primary transition-all hover:bg-gold-light"
@@ -205,7 +205,7 @@ export function SegmentPage({ segment, faqs }: SegmentPageProps) {
             </p>
             <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
               <a
-                href="https://wa.me/5511999999999"
+                href="https://wa.me/5517997888159"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center gap-2 rounded-sm bg-gold px-8 py-4 font-sans text-base font-semibold text-primary transition-all hover:bg-gold-light"

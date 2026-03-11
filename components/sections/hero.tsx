@@ -53,24 +53,24 @@ export function Hero() {
         </div>
 
         {/* Stats */}
-        <div className="mt-20 grid grid-cols-2 gap-8 border-t border-border/20 pt-12 sm:grid-cols-4">
+        {/*<div className="mt-20 grid grid-cols-2 gap-8 border-t border-border/20 pt-12 sm:grid-cols-4">
           <div>
-            <p className="font-serif text-4xl font-bold text-gold">10+</p>
-            <p className="mt-2 font-sans text-sm text-muted-foreground">Anos de Experiência</p>
+            <p className="font-serif text-4xl font-bold text-gold">1+</p>
+            <p className="mt-2 font-sans text-sm text-muted-foreground">Ano de Experiência</p>
           </div>
           <div>
-            <p className="font-serif text-4xl font-bold text-gold">500+</p>
+            <p className="font-serif text-4xl font-bold text-gold">10+</p>
             <p className="mt-2 font-sans text-sm text-muted-foreground">Projetos Realizados</p>
           </div>
           <div>
-            <p className="font-serif text-4xl font-bold text-gold">4</p>
+            <p className="font-serif text-4xl font-bold text-gold">1</p>
             <p className="mt-2 font-sans text-sm text-muted-foreground">Segmentos de Atuação</p>
           </div>
           <div>
             <p className="font-serif text-4xl font-bold text-gold">98%</p>
             <p className="mt-2 font-sans text-sm text-muted-foreground">Clientes Satisfeitos</p>
           </div>
-        </div>
+        </div>*/}
       </div>
 
       {/* Scroll Indicator */}

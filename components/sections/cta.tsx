@@ -31,7 +31,7 @@ export function CTA() {
             <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
           </Link>
           <a
-            href="https://wa.me/5511999999999"
+            href="https://wa.me/5517997888159"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 rounded-sm border border-primary-foreground/30 px-8 py-4 font-sans text-base font-medium text-primary-foreground transition-all hover:border-gold hover:text-gold"

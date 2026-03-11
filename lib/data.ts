@@ -3,9 +3,9 @@ import type { Segment, Testimonial, NavigationItem, FAQ } from '@/types';
 export const navigation: NavigationItem[] = [
   { label: 'Início', href: '/' },
   { label: 'Gesso 3D', href: '/gesso-3d' },
-  { label: 'Armazém', href: '/armazem' },
-  { label: 'Espaço & Lazer', href: '/espaco-lazer' },
-  { label: 'MM Wear', href: '/mm-wear' },
+  //{ label: 'Armazém', href: '/armazem' },
+  //{ label: 'Espaço & Lazer', href: '/espaco-lazer' },
+  //{ label: 'MM Wear', href: '/mm-wear' },
   { label: 'Contato', href: '/contato' },
 ];
 
@@ -34,7 +34,7 @@ export const segments: Segment[] = [
     href: '/gesso-3d',
     icon: 'layers',
   },
-  {
+  /*{
     id: 'armazem',
     name: 'MM Armazém',
     title: 'Armazenamento Inteligente',
@@ -99,7 +99,7 @@ export const segments: Segment[] = [
     valueProposition: 'Moda que expressa atitude, estilo e confiança.',
     href: '/mm-wear',
     icon: 'shirt',
-  },
+  },*/
 ];
 
 export const testimonials: Testimonial[] = [
@@ -110,7 +110,7 @@ export const testimonials: Testimonial[] = [
     content: 'O trabalho da MM Gesso 3D superou todas as expectativas. O acabamento é impecável e a equipe foi extremamente profissional.',
     segment: 'gesso-3d',
   },
-  {
+  /*{
     id: '2',
     name: 'Ricardo Mendes',
     role: 'Empresário',
@@ -130,7 +130,7 @@ export const testimonials: Testimonial[] = [
     role: 'Designer',
     content: 'As peças da MM Wear têm qualidade excepcional. Design moderno e tecidos de primeira. Virei cliente fiel.',
     segment: 'mm-wear',
-  },
+  },*/
 ];
 
 export const companyDifferentials = [
@@ -171,7 +171,7 @@ export const gessoFAQs: FAQ[] = [
   },
 ];
 
-export const armazemFAQs: FAQ[] = [
+/*export const armazemFAQs: FAQ[] = [
   {
     question: 'Qual o tamanho mínimo de espaço disponível para aluguel?',
     answer: 'Oferecemos espaços a partir de 10m², ideais para pequenos e-commerces e empreendedores.',
@@ -226,4 +226,4 @@ export const mmWearFAQs: FAQ[] = [
     question: 'As peças têm tabela de medidas?',
     answer: 'Sim, cada produto possui tabela de medidas detalhada. Em caso de dúvida, nossa equipe está disponível para ajudar.',
   },
-];
+];*/
