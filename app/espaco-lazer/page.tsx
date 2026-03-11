@@ -15,4 +15,4 @@ export default function EspacoLazerPage() {
   const segment = segments.find((s) => s.id === 'espaco-lazer')!;
 
   return <SegmentPage segment={segment} faqs={espacoLazerFAQs} />;
-}
+}*/

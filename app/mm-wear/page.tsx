@@ -15,4 +15,4 @@ export default function MMWearPage() {
   const segment = segments.find((s) => s.id === 'mm-wear')!;
 
   return <SegmentPage segment={segment} faqs={mmWearFAQs} />;
-}
+}*/

@@ -15,4 +15,4 @@ export default function ArmazemPage() {
   const segment = segments.find((s) => s.id === 'armazem')!;
 
   return <SegmentPage segment={segment} faqs={armazemFAQs} />;
-}
+}*/
