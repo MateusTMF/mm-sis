@@ -3,7 +3,7 @@
 import * as React from 'react'
 import * as RechartsPrimitive from 'recharts'
 
-import { cn } from '../../lib/utils'
+import { cn } from '@/lib/utils'
 
 // Format: { THEME_NAME: CSS_SELECTOR }
 const THEMES = { light: '', dark: '.dark' } as const
@@ -17,8 +17,6 @@ export type ChartConfig = {
     | { color?: never; theme: Record<keyof typeof THEMES, string> }
   )
 }
-
-
 
 type ChartContextProps = {
   config: ChartConfig
@@ -88,13 +86,13 @@ const ChartStyle = ({ id, config }: { id: string; config: ChartConfig }) => {
             ([theme, prefix]) => `
 ${prefix} [data-chart=${id}] {
 ${colorConfig
-                .map(([key, itemConfig]) => {
-                  const color =
-                    itemConfig.theme?.[theme as keyof typeof itemConfig.theme] ||
-                    itemConfig.color
-                  return color ? `  --color-${key}: ${color};` : null
-                })
-                .join('\n')}
+  .map(([key, itemConfig]) => {
+    const color =
+      itemConfig.theme?.[theme as keyof typeof itemConfig.theme] ||
+      itemConfig.color
+    return color ? `  --color-${key}: ${color};` : null
+  })
+  .join('\n')}
 }
 `,
           )
@@ -277,8 +275,8 @@ function ChartLegendContent({
         className,
       )}
     >
-      {(payload as any[]).map((item) => {
-        const key = `${nameKey || item?.dataKey || 'value'}`
+      {payload.map((item) => {
+        const key = `${nameKey || item.dataKey || 'value'}`
         const itemConfig = getPayloadConfigFromPayload(config, item, key)
 
         return (
@@ -318,8 +316,8 @@ function getPayloadConfigFromPayload(
 
   const payloadPayload =
     'payload' in payload &&
-      typeof payload.payload === 'object' &&
-      payload.payload !== null
+    typeof payload.payload === 'object' &&
+    payload.payload !== null
       ? payload.payload
       : undefined
 

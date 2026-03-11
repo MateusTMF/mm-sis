@@ -1,31 +1,25 @@
-"use client"
+import { Header } from '@/components/layout/header';
+import { Footer } from '@/components/layout/footer';
+import { Hero } from '@/components/sections/hero';
+import { About } from '@/components/sections/about';
+import { Segments } from '@/components/sections/segments';
+import { Testimonials } from '@/components/sections/testimonials';
+import { CTA } from '@/components/sections/cta';
+import { WhatsAppButton } from '@/components/whatsapp-button';
 
-import { useState, useEffect } from "react"
-import Sidebar from "../components/sidebar"
-import SystemInfo from "../components/system-info"
-
-export default function Home() {
-  const [isMobile, setIsMobile] = useState(false)
-
-  useEffect(() => {
-    const checkMobile = () => {
-      setIsMobile(window.innerWidth < 768)
-    }
-    checkMobile()
-    window.addEventListener("resize", checkMobile)
-    return () => window.removeEventListener("resize", checkMobile)
-  }, [])
-
+export default function HomePage() {
   return (
-    <div className="flex h-screen bg-background">
-      <Sidebar />
-
-      {/* Main Content agora se adapta melhor com a sidebar */}
-      <main className="flex-1 overflow-auto transition-all duration-300">
-        <div className="pt-20 px-4 md:px-8 py-6">
-          <SystemInfo />
-        </div>
+    <>
+      <Header />
+      <main>
+        <Hero />
+        <About />
+        <Segments />
+        <Testimonials />
+        <CTA />
       </main>
-    </div>
-  )
+      <Footer />
+      <WhatsAppButton />
+    </>
+  );
 }
