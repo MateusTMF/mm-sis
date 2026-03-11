@@ -19,7 +19,7 @@ export default function MMWearPage() {
 }
 */
 
-// Export mínimo para manter a página sem quebrar o build
+// Export mínimo obrigatório para Vercel
 export default function MMWearPage() {
-  return null; // ou <></> se preferir
+  return null; // ou <></>
 }

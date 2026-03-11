@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 /* Código antigo comentado
 import { SegmentPage } from '@/components/segment-page';
-// import { segments, armazemFAQs } from '@/lib/data';
+import { segments, armazemFAQs } from '@/lib/data';
 
 export const metadata: Metadata = {
   title: 'MM Armazém | Armazenamento e Logística',
@@ -19,7 +19,7 @@ export default function ArmazemPage() {
 }
 */
 
-// Export mínimo para Next.js não quebrar o build
+// Export mínimo obrigatório para Vercel
 export default function ArmazemPage() {
   return null; // ou <></>
 }
