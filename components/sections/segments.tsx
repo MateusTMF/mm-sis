@@ -23,7 +23,7 @@ export function Segments() {
             <span className="text-gold">Cada Necessidade</span>
           </h2>
           <p className="mt-6 font-sans text-lg leading-relaxed text-muted-foreground">
-            Conheça nossos quatro segmentos de atuação e descubra como podemos 
+            Conheça nossos segmentos de atuação e descubra como podemos 
             ajudar você a alcançar seus objetivos com excelência.
           </p>
         </div>
